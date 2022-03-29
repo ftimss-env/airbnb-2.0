@@ -2,15 +2,16 @@ import './App.css';
 import Home from './Home';
 import Header from './Header';
 import Banner from './Banner'
+import Footer from './Footer';
 
 function App() {
   return (
     // BEM
     <div className="app">
       <Header />
-      {/* Home */}
       <Home />
-      <Banner />
+      <Footer />
+      {/* <Banner /> */}
           {/* Header */}
 
           {/* Banner */}
